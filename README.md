@@ -150,3 +150,13 @@ Monthly Analysis
 Multi-Month Trend Analysis
   ↓
 Automated Report
+
+
+
+## Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/absabsid-bit/monthly-stock-screening-agent.git
+cd monthly-stock-screening-agent
