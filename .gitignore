@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+screening_history.csv
+screening_history_*.csv
+
+laporan_screening_*.txt
+
+fund_data.csv
+
+ARSIP/
+
+*_backup*.py
+*_backup*.csv
+
+New Text Document.txt
+CARA MENGGUNAKAN DATA DI CMD.txt
