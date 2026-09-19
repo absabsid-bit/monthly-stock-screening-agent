@@ -160,3 +160,68 @@ Clone repository:
 ```bash
 git clone https://github.com/absabsid-bit/monthly-stock-screening-agent.git
 cd monthly-stock-screening-agent
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Jalankan seluruh proses screening melalui Windows Batch Script:
+
+```cmd
+run_stock_agent.bat
+```
+
+Atau melalui Command Prompt:
+
+```cmd
+python master_stock_agent_v5.py
+```
+
+## Interactive Dashboard
+
+Project ini juga menyediakan dashboard interaktif berbasis Streamlit untuk memvisualisasikan hasil screening.
+
+Dashboard menyediakan:
+
+- Overview kandidat terbaru
+- Score kandidat
+- Filter berdasarkan jenis, sektor, dan kandidat
+- Historical screening
+- Component score analysis
+- Alert monitoring
+- Monthly analysis
+- Data quality dan freshness
+- Sumber data screening
+
+Jalankan dashboard:
+
+```cmd
+streamlit run dashboard.py
+```
+
+Kemudian buka:
+
+```text
+http://localhost:8501
+```
+
+Dashboard membaca data dari:
+
+```text
+screening_history.csv
+```
+
+Dashboard digunakan sebagai alat monitoring dan visualisasi hasil screening. Dashboard tidak menjalankan perintah otomatis untuk membeli atau menjual saham.
+
+## Output
+
+Sistem menghasilkan:
+
+- Historical screening data dalam format CSV
+- Automated screening report dalam format TXT
+- Interactive dashboard untuk monitoring dan visualisasi
